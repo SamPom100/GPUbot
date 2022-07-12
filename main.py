@@ -17,10 +17,10 @@ def getStatus(card):
         headers={"User-Agent": "Mozilla/5.0"}
     ).text
     if programDict["disableButton"] not in source:
-        print(card+"is available\n\n")
+        print(card+" is available\n\n")
         webbrowser.open(programDict[card])
     else:
-        print(card+"is unavailable\n\n")
+        print(card+" is unavailable\n\n")
 
 
 getStatus("3070")
