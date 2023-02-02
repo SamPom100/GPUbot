@@ -26,3 +26,4 @@ def getStatus(card):
 getStatus("3070")
 getStatus("3070ti")
 getStatus("3080")
+#test
